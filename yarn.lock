@@ -3839,18 +3839,18 @@
   dependencies:
     lodash "^4.17.21"
 
-"@twilio/conversations@~2.2.0-rc.11":
-  version "2.2.0-rc.11"
-  resolved "https://registry.npmjs.org/@twilio/conversations/-/conversations-2.2.0-rc.11.tgz"
-  integrity sha512-rgaqRlWIOpsMO5gFpBoayqheG3c7WFwGGzzbJtNt+QB8b/aWPSoVzpM/tsNcuurlxdU8AaTR/et2hk1ke0UkqQ==
+"@twilio/conversations@2.2.1":
+  version "2.2.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@twilio%2fconversations/-/conversations-2.2.1.tgz#e0418a55e1b36d785264619eca16d42634253850"
+  integrity sha512-P+emF319V8AooIdab5GxAKaQjjEjyphI5qroWXaWXFmQvYjTr6fzcH3wEBWHvkhPnce/wQ5tu0UlVtbO+hJD9Q==
   dependencies:
     "@babel/runtime" "^7.17.0"
-    "@twilio/declarative-type-validator" "^0.2.0-rc.3"
-    "@twilio/deprecation-decorator" "^0.1.0-rc.12"
-    "@twilio/mcs-client" "^0.6.0-rc.8"
-    "@twilio/notifications" "^2.0.0-rc.3"
-    "@twilio/operation-retrier" "^4.0.8-rc.4"
-    "@twilio/replay-event-emitter" "^0.3.0-rc.4"
+    "@twilio/declarative-type-validator" "^0.2.1"
+    "@twilio/deprecation-decorator" "^0.2.0"
+    "@twilio/mcs-client" "^0.6.1"
+    "@twilio/notifications" "^2.0.1"
+    "@twilio/operation-retrier" "^4.0.9"
+    "@twilio/replay-event-emitter" "^0.3.1"
     core-js "^3.17.3"
     iso8601-duration "=1.2.0"
     isomorphic-form-data "^2.0.0"
@@ -3869,43 +3869,43 @@
     "@babel/runtime" "^7.14.5"
     core-js "^3.17.3"
 
-"@twilio/declarative-type-validator@^0.2.0-rc.3":
-  version "0.2.0-rc.3"
-  resolved "https://registry.npmjs.org/@twilio/declarative-type-validator/-/declarative-type-validator-0.2.0-rc.3.tgz"
-  integrity sha512-T6og0Cz4TCuwuUWIxW9+R20U/cr6YGtNPBkrDCAY5NcLdL0eHZxqO6on6GGGAyzIi6BpgHqL4ndN4il9+gEM2Q==
+"@twilio/declarative-type-validator@^0.2.1":
+  version "0.2.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@twilio%2fdeclarative-type-validator/-/declarative-type-validator-0.2.1.tgz#4fbe3c2057e98c2044951c635f63d503dede8955"
+  integrity sha512-CKBYsH+bafRqLjZa4y9K52ObO7L9NPRg3+i+ewfF9KFBJZKErBKUzhLeLZcg7reiMo54kWOANUkGMKcEKWfjFA==
   dependencies:
     "@babel/runtime" "^7.17.0"
     core-js "^3.17.3"
 
-"@twilio/deprecation-decorator@^0.1.0-rc.12":
-  version "0.1.0-rc.12"
-  resolved "https://registry.npmjs.org/@twilio/deprecation-decorator/-/deprecation-decorator-0.1.0-rc.12.tgz"
-  integrity sha512-TNdDoj3Bgnse5DwSa927QqtMjM2oicXyfRf4FzB0oL44Y+IhGPFnvTrQPx4s/O1HipZhT5fnEl0wd12+CpymRQ==
+"@twilio/deprecation-decorator@^0.2.0":
+  version "0.2.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/@twilio%2fdeprecation-decorator/-/deprecation-decorator-0.2.0.tgz#b02f669604dc3ff7821ef413f9278a202e3fa592"
+  integrity sha512-Kzk/PKSxH3RL66gBQa6pN2YGi1Qj4H+JYKaWNiXxkAWPFrUdBsLrErq5QnabYg9dHkhnSHx60auUhGYfeoHEUg==
   dependencies:
     "@babel/runtime" "^7.17.0"
     core-js "^3.17.3"
     loglevel "1.8.0"
 
-"@twilio/mcs-client@^0.6.0-rc.8":
-  version "0.6.0-rc.8"
-  resolved "https://registry.npmjs.org/@twilio/mcs-client/-/mcs-client-0.6.0-rc.8.tgz"
-  integrity sha512-KP3gKY9rxG2UKRCRLnghDU6enyralYUOk+QKmKkj5QEDv7w6esbls+73a600VvK8qge919D6HvHPlsut18y6cg==
+"@twilio/mcs-client@^0.6.1":
+  version "0.6.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@twilio%2fmcs-client/-/mcs-client-0.6.1.tgz#c556575da2aa9b29150dccd38b55dc2f4b7edf78"
+  integrity sha512-JbRoJHXKtgeTToDiOilTxbxJmDP7z9P3vjjALIv9UN3aa0x3N59M3f0jKouzMBFREtH4/9MBaXdFIFPmb3Eg+Q==
   dependencies:
     "@babel/runtime" "^7.17.0"
-    "@twilio/declarative-type-validator" "^0.2.0-rc.3"
-    "@twilio/operation-retrier" "^4.0.8-rc.4"
+    "@twilio/declarative-type-validator" "^0.2.1"
+    "@twilio/operation-retrier" "^4.0.9"
     core-js "^3.17.3"
     loglevel "^1.8.0"
     xmlhttprequest "^1.8.0"
 
-"@twilio/notifications@^2.0.0-rc.3":
-  version "2.0.0-rc.3"
-  resolved "https://registry.npmjs.org/@twilio/notifications/-/notifications-2.0.0-rc.3.tgz"
-  integrity sha512-IYTg8cWCG8QLAkqEiPkX3WJmCO5Z2xpk1tWKXMtpn9dMeOW+9m/P+hLpMPTuV/+l+4ULGwHCjipnSbJk4gRXIw==
+"@twilio/notifications@^2.0.1":
+  version "2.0.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@twilio%2fnotifications/-/notifications-2.0.1.tgz#5d18d56014574d63162c79e163dd0b60e159a455"
+  integrity sha512-x8k3s8UM0eZGxaHiyV7z2boRDohPTL+wG+l+0vtVySkq7K1vMhCd+O7G9TCkdwoSENMeYJ3Hk0EW+J8cb57lSg==
   dependencies:
     "@babel/runtime" "^7.17.0"
-    "@twilio/declarative-type-validator" "^0.2.0-rc.3"
-    "@twilio/operation-retrier" "^4.0.8-rc.4"
+    "@twilio/declarative-type-validator" "^0.2.1"
+    "@twilio/operation-retrier" "^4.0.9"
     core-js "^3.17.3"
     loglevel "^1.8.0"
     twilsock "~0.12.2"
@@ -3919,18 +3919,18 @@
     "@babel/runtime" "^7.14.5"
     core-js "^3.17.3"
 
-"@twilio/operation-retrier@^4.0.8-rc.4":
-  version "4.0.8-rc.4"
-  resolved "https://registry.npmjs.org/@twilio/operation-retrier/-/operation-retrier-4.0.8-rc.4.tgz"
-  integrity sha512-AEVfSlJsNWbKwUKEU9Dgix/X/Nhnguh0hCLWebGyVcUjEkRS9C4ka88Rn71uOixKuR69i5OIbBJYUGYf8Ssd9Q==
+"@twilio/operation-retrier@^4.0.9":
+  version "4.0.9"
+  resolved "https://mirrors.cloud.tencent.com/npm/@twilio%2foperation-retrier/-/operation-retrier-4.0.9.tgz#cd6788604e4b61b4be9f85219bcaf1b0a16c15f7"
+  integrity sha512-nFA+F0EDf+zfhiQng+UrMNTOTqWPsp+WE1WbcxdeRoSHYDF9yj/jDzhXLtNPrIyiKGoegXBjRPEVm9QOZkTr5g==
   dependencies:
     "@babel/runtime" "^7.17.0"
     core-js "^3.17.3"
 
-"@twilio/replay-event-emitter@^0.3.0-rc.4":
-  version "0.3.0-rc.4"
-  resolved "https://registry.npmjs.org/@twilio/replay-event-emitter/-/replay-event-emitter-0.3.0-rc.4.tgz"
-  integrity sha512-Aue4ZB/jiBHEhD5tRLT/Gk6MEv1m1tcT5FvIzs4INTAySiVlOhI099WHe5Zm0cvKYSOu4MmqkxA5clb6DwU6kg==
+"@twilio/replay-event-emitter@^0.3.1":
+  version "0.3.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@twilio%2freplay-event-emitter/-/replay-event-emitter-0.3.1.tgz#db8461a46267e870d2c92ea578f4e2dd27940f56"
+  integrity sha512-zij2RhsnDW4HTv1e8YfFtuOP3VipWe3CBaLMI1sexkx2ld2HiNxXOd6UVOrqIZyBSgsCEmGUZSHKKcWvccHUdw==
   dependencies:
     "@babel/runtime" "^7.17.0"
     core-js "^3.17.3"
